@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <head>
+        <title>UMS</title>
+        <link href="css/l1.css" rel="stylesheet">
+        <link href="css/main.css" rel="stylesheet">
+    </head>
+    <body>
+        <nav>
+            <ul id="menu">
+                <li><a href="login.html"> <i class="fas fa-sign-in-alt"></i> Login </a></li> 
+            </ul>
+        </nav>
+        <div class="header">
+            User Registration
+        </div>
+        <div class="register1">
+        <form id="regform">   
+        <div class="reg1">
+            <label>Name:</label>
+            <input id=name1 type="text" name="uid"><br><br>
+        </div>
+        <div class="reg2">
+            <label>Email:</label>
+            <input id=mail1 type="text" name="mid"><br><br>
+        </div>
+        <div>
+            <label>Age:</label>
+            <input id="age1" type="number" name="Age"><br><br>
+        </div>
+        <div>
+            <label>Mobile Number:</label>
+            <input id="mob1" type="text" name="mob"><br><br>
+            <label>PAN Number:</label>
+            <input id="pan1" type="text" name="pan"><br><br>
+        </div>
+        <div>
+            <label>Password:</label>
+            <input id="pwd1" type="password" name="pass"><br><br>
+            <label>Confirm Password:</label>
+            <input id="cpwd1" type="password" name="cpass"><br><br>
+        </div>      
+        <div>
+            <label>Gender:</label>
+            <input type="radio" name="gender" value="Male">Male
+            <input type="radio" name="gender" value="Female">Female
+            <input type="radio" name="gender" value="Others">Others<br><br>
+        </div>
+        <div>
+            <label>Hobbies:</label>
+            <input type="checkbox" name="hob" value="Reading">Reading            
+            <input type="checkbox" name="hob" value="Cycling">Cycling
+            <input type="checkbox" name="hob" value="Gardening">Gardening
+            <input type="checkbox" name="hob" value="Net surfing">Net Surfing<br><br>
+        </div>
+        <div>
+            <input type="button"  onclick="registerForm()" class="but" value="Register">
+            <input type="reset" class="but" value="Cancel">
+        </div>
+        </form> 
+        </div>
+        <div class="footer">
+            Copyright@Softtech solutions, 2012-2021. All rights reserved.
+        </div>
+		<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <script src="js/regform.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/sha256.min.js"></script>
+    </body>
+</html>    

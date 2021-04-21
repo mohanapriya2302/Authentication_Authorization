@@ -1,0 +1,29 @@
+.login1
+{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding:20px;
+}
+.but
+{
+    background-color: salmon;
+    padding:10px 20px;
+    margin:1px;
+    border-radius: 8px;
+    cursor:pointer;
+}
+.but:hover
+{
+    opacity:0.8;
+}
+label
+{
+    width:150px;
+    display: inline-block;
+}
+.register1
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 100px; 
+    padding: 20px;
+}

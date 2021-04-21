@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <head>
+        <title>UMS</title>
+        <link href="css/l1.css" rel="stylesheet">
+        <link href="css/main.css" rel="stylesheet">
+    </head>
+    <body>
+        <nav>
+            <ul id="menu">
+               <li><a href="register.html"> <i class="fas fa-sign-in-alt"></i> Register </a></li>
+            </ul>
+        </nav>
+        <div class="header">
+            Login
+        </div>
+        <div class="login1">
+        <form id="loginform">
+		<div>
+            <label>User ID:</label>
+            <input id="mail1" type="text" name="uid" placeholder="Enter mail ID"><br><br>
+        </div>
+		<div>
+			<label>Password:</label>
+            <input id="pwd1" type="password" name="pwd" placeholder="Enter Password"><br><br>
+        </div>
+		<div>
+			<input type="button" onclick="login()" class="but" value="Login">
+            <input type="reset" class="but" value="Cancel">
+        </div>
+        <div class="footer">
+            Copyright@Softtech solutions, 2012-2021. All rights reserved.
+		</div>
+		</form>
+		</div>
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <script type="text/javascript" src="js/login.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/sha256.min.js"></script>
+    </body>
+</html>
